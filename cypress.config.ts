@@ -7,7 +7,7 @@ export default defineConfig({
   e2e: {
     reporter: 'junit',
     reporterOptions: {
-      mochaFile: 'results/results-[hash].xml',
+      mochaFile: 'cypress/results/results-[hash].xml',
       overwrite: false,
     },
     video: true,
