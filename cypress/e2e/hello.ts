@@ -1,4 +1,4 @@
-import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
+import { Given, Then, When } from '@badeball/cypress-cucumber-preprocessor'
 
 Given('As a user in google home page', () => {
   cy.visit('https://www.google.com')
